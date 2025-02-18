@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+	--black-color: #000000;
+	--blue-dark-color: #5c2dd5;
+	--blue-ligh-color: #7945ff;
+	--pink-color: #fd6687;
+	--yellow: #ffce67;
+	--white-color: #ffffff;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: var(--blue-ligh-color);
+	font-family: "Space Grotesk";
+}
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+
+button {
+	border-radius: 20px;
+	background: var(--blue-dark-color);
+	border: none;
+	height: 6vh;
+	width: 6vw;
+	color: var(--white-color);
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.rose {
+	background-color: var(--pink-color);
+	color: var(--white-color);
+}
+
+.score {
+	display: flex;
+	justify-content: space-between;
+	padding: 69px;
+}
+
+.white {
+	border-radius: 20px;
+	border: 3px solid var(--Black, #000);
+	background: var(--white-color, #fff);
+	box-shadow: 0px 10px 0px 0px #000;
+}
+
+.player {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	padding: 35px;
+}
+
+.position {
+	position: absolute;
+	left: calc(50% - 35px);
+	top: -35px;
+	width: 70px;
+	height: 70px;
+}
+.centre {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h3 {
+	color: var(--black-color, #000);
+	text-align: center;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}

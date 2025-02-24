@@ -87,7 +87,7 @@ h3 {
 	display: grid;
 	position: relative;
 	width: 60vmin;
-    height: calc((6/7) * 60vmin);
+	height: calc((6 / 7) * 60vmin);
 	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: repeat(6, 1fr);
 	border-radius: 40px;
@@ -113,9 +113,28 @@ h3 {
 	width: max-content;
 	position: absolute;
 	padding: 48px;
-	text-align: center	;
+	text-align: center;
 	bottom: -15%;
 	right: 50%;
 	transform: translate(50%, 50%);
+	display: none;
 }
 
+.time-1 {
+	background: no-repeat center / contain url("../assets/Rectangle\ \(1\).svg");
+	width: max-content;
+	position: absolute;
+	padding: 48px;
+	text-align: center;
+	bottom: -8%;
+	right: 50%;
+	transform: translate(50%, 50%);
+	display: none;	
+}
+
+.rules  {
+	position: absolute;
+	background-color: var(--blue-dark-color);
+	height: ;
+}
+			
